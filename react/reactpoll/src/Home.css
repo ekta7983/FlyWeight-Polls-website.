@@ -1,0 +1,63 @@
+*{
+  overflow-x:hidden;
+  font-size: 1rem;
+}
+.app{
+    display:flex;
+    align-items: 'left';
+    width:max-content;
+}
+.app-child{
+     margin-right:'10em';
+     margin-left:'5rem';
+     width:30vw;
+     
+}
+@media only screen and (min-width: 210px) and (max-width: 374px) {
+  .app {
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+  .app-child {
+    margin: 1rem 0; 
+    width: 94%;
+   
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 470px){
+  .app {
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  .app-child {
+    margin: 1.5rem 0; 
+    width: 94%;
+   
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 980px){
+  .app{
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+}
+@media only screen and (min-width: 500px) and (max-width: 600px){
+  .app {
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+}
+/* @media only screen and (max-width: 550px) {
+    .app {
+      flex-direction: column;
+      align-items: center;
+    }
+    .app-child {
+      margin: 2rem 0; /* Adjust margin for small screens */
+      /* width: 80vw; Adjust width for small screens */
+  /* }
+  } */ 

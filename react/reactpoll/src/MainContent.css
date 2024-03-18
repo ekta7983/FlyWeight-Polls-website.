@@ -1,0 +1,120 @@
+.main-table{
+    border-collapse: collapse;
+     border: 1px solid black;
+     /* margin:1rem; */
+}
+.tbl-head{
+    border: 1px solid grey;
+     padding: 0.6rem;
+     background-color: lightgray ;
+     font-size: 1.4rem;
+}
+/* .tbl-data a {
+    font-size: 1rem; /* Adjust the font size as needed 
+  } */
+.TableContainer{
+    max-height: 800px;
+    overflow-y: auto;
+    font-size:medium;
+    overflow-x: scroll;
+}
+.MuiTableCell {
+  font-size: 1.4rem; /* Adjust the font size as needed */
+}
+/*TableHead{
+     position: sticky; 
+} */
+#poll-question,#tags{
+    text-align: left;
+}
+.tbl-data{
+    text-align: center;
+    font-size: 1.4rem;
+    border:1px solid black;
+     padding: 0.6rem;
+}
+.mainComp{
+    /* overflow-x: scroll; */
+    
+    width: 100%;
+} 
+.main-table tbody tr:nth-child(even) {
+    background-color: rgb(254, 255, 250); /* Adjust the color as needed */
+  }
+.tableWrapper {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    max-width: 100%; /* Ensure the table wrapper does not exceed the viewport width */
+  }
+@media only screen and (min-width: 210px) and (max-width: 374px){
+    .mainComp{
+        overflow-x: scroll;
+        width:85%;
+    }
+    .tbl-data{
+        padding:0.2rem;
+    }
+}
+@media only screen and (min-width: 374px) and (max-width: 470px){
+      .mainComp{
+        overflow-x: scroll;
+        width:53%;
+        margin : 0rem 1rem 1rem 0rem;
+    }
+    .main-table{
+        /* width: max-content; */
+        /* overflow-x: scroll; */
+        margin-left:1rem;
+        margin-right: 1rem;
+       
+    }
+    .css-rqglhn-MuiTable-root{
+        width: 80vh;
+    }
+    .tbl-data{
+        padding:0.4rem;
+    }
+}
+@media only screen and (min-width: 470px) and (max-width: 568px){
+    .mainComp{
+        overflow-x: scroll;
+        width:50%;
+        margin:0rem 1rem 1rem 1rem;
+    }
+    .main-table{
+        width:max-content;
+    }
+
+}
+@media only screen and (min-width: 569px) and (max-width: 768px){
+    .mainComp{
+        overflow-x: scroll;
+        width:60%;
+        margin:0rem 1rem 1rem 1rem;
+    }
+    /* .main-table{
+        width:max-content;
+    } */
+}
+@media only screen and (min-width: 768px) and (max-width:910px){
+    .mainComp{
+        overflow-x: scroll;
+        width:55%;
+        margin:0rem 1rem 1rem 0rem;
+    }
+}
+@media only screen and (min-width: 911px){
+    .mainComp{
+        overflow-x: scroll;
+        width:75%;
+        margin:3.4rem 1rem 1rem 0rem;
+    }
+}
+/* @media only screen and (max-width: 550px) {
+    .main-table{
+        margin:0.8rem;
+        width:80vw;
+    }
+    .tbl-data{
+        padding:0;
+    }
+} */

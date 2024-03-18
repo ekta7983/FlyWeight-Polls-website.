@@ -1,0 +1,50 @@
+heading2{
+    /* font-size: larger; */
+    margin:0.5rem;
+}
+.quest-head{
+    margin-left:0.7rem;
+}
+.tbl-chart{
+    display: flex;
+    flex: 1;
+}
+.chartie{
+    padding:none;
+}
+
+h1{
+    font-size:1.5rem;
+}
+.table{
+    margin:1rem 1rem 1rem 0.5rem;
+    margin-top:4rem;
+}
+.tbl-cell{
+    border: 1px solid black;
+     padding: 1.3rem;
+}
+.tbl-cell-head{
+     border: 1px solid black;
+      padding: 1.3rem;
+      background-color:#b2b5b6;
+}
+.poll-tbl{
+    border-collapse: collapse; 
+    border: 1px solid black;
+}
+/* .heading2,.vote-btn{
+    flex-direction: column;
+} */
+@media only screen and (max-width: 600px){
+.tbl-chart{
+    flex-direction: column;
+}
+}
+@media only screen and (min-width: 800px) {
+    .table{
+        width:55%;
+        border-radius: 5px;
+    }
+}
+    

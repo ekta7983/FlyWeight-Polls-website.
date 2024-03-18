@@ -1,0 +1,99 @@
+.create-poll-home{
+      margin: 2rem;
+}
+.filter-btn{
+     margin: 0.5rem;
+     /* padding:2rem; */
+}
+/* .filter-box{
+    width:18vw;
+} */
+.sidebar{
+    min-width: 280px;;
+    width:100%;
+    margin:0rem 0rem 1rem 2rem;
+    overflow-x: hidden;
+    position:sticky;
+    top: 0; /* Stick to the top of the viewport */
+}
+.sidebar-main{
+    width:40%;
+    border: 1px solid black;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    background-color: #F2F1EB ;
+}
+.filter-box{
+    padding:1.3rem;
+}
+@media only screen and (min-width: 210px) and (max-width: 374px) {
+    .create-poll-home{
+        margin:2rem;
+        width: max-content;
+    }
+    .sidebar-main{
+        margin:1rem 0 0 0;
+        width:90%;
+    }
+    
+    /* .filter-box{
+        width:60%;
+        padding:20%;
+    } */
+    .sidebar{
+        margin:0rem 0rem 0.2rem 0.2rem;
+        width:50%;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .sidebar{
+        width:40vh;
+    }
+    .sidebar-main{
+       width: 100%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 470px) {
+    .sidebar-main{
+        width:75vw;
+    }
+    .filter-box{
+       width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:980px){
+    .sidebar-main{
+        margin:1rem 0 0rem 0rem;
+        width:70%;
+    }
+    .sidebar{
+        height:80vh;
+    }
+    .create-poll-home{
+        margin: 1rem;
+  }
+}
+@media only screen and (min-width: 470px) and (max-width: 767px){
+    .sidebar-main{
+        width: 100%;
+     }
+}
+@media only screen and (min-width: 911px) {
+    .sidebar-main{
+        margin:1rem 0 0rem 0rem;
+        width:65%;
+    }
+}
+   /* .filter-box{
+        width:max-content;
+    }
+    .sidebar-main{
+        width:60vw;
+  
+    }
+    .create-poll-home{
+        margin:2rem;
+        width: max-content;
+    }
+
+} */

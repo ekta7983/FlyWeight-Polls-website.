@@ -1,0 +1,24 @@
+.vote-on-poll{
+    height:80vw;
+    width:80vh;
+    padding:5px;
+}
+.btn-votie{
+    margin:2rem;
+}
+.vote-btn{
+    margin-top:6rem;
+}
+.question-h1{
+    font-weight: 470;
+    margin-left: 1.3rem;
+}
+.option{
+    margin:1rem;
+}
+.form-choice{
+padding:0;
+}
+label{
+    font-size: 20px;;
+}
